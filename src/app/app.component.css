@@ -125,7 +125,7 @@ legend {
   border: 0;
   padding: 0;
   white-space: normal;
-  *margin-left: -7px; }
+ }
 
 button,
 input,
@@ -134,8 +134,7 @@ textarea {
   font-size: 100%;
   margin: 0;
   vertical-align: baseline;
-  *vertical-align: middle; }
-
+}
 button,
 input {
   line-height: normal; }
@@ -145,8 +144,8 @@ input[type="button"],
 input[type="reset"],
 input[type="submit"] {
   cursor: pointer;
-  -webkit-appearance: button;
-  *overflow: visible; }
+
+   }
 
 button[disabled],
 input[disabled] {
@@ -156,11 +155,10 @@ input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
   padding: 0;
-  *height: 13px;
-  *width: 13px; }
+  }
 
 input[type="search"] {
-  -webkit-appearance: textfield;
+
   -moz-box-sizing: content-box;
   -webkit-box-sizing: content-box;
   box-sizing: content-box; }
@@ -182,10 +180,7 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-@font-face {
-  font-family: "icons";
-  font-weight: normal;
-  font-style: normal; }
+
 ::selection {
   text-shadow: none;
   background: #000000;
@@ -338,7 +333,6 @@ footer {
   .about:after {
     background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.8) 0%, transparent 100%);
     background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.8) 0%, transparent 100%);
-    background-image: linear-gradient(top, rgba(0, 0, 0, 0.8) 0%, transparent 100%);
     position: absolute;
     display: block;
     width: 100%;
@@ -1835,7 +1829,7 @@ footer {
       -moz-transform: scale(1.3);
       transform: scale(1.3); } }
 a, button {
-  -webkit-transition: color 0.6s cubic-bezier(0.165, 0.84, 0.44, 1), background-color 0.6s cubic-bezier(0.165, 0.84, 0.44, 1), opacity 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+
   -moz-transition: color 0.6s cubic-bezier(0.165, 0.84, 0.44, 1), background-color 0.6s cubic-bezier(0.165, 0.84, 0.44, 1), opacity 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
   transition: color 0.6s cubic-bezier(0.165, 0.84, 0.44, 1), background-color 0.6s cubic-bezier(0.165, 0.84, 0.44, 1), opacity 0.6s cubic-bezier(0.165, 0.84, 0.44, 1); }
 
@@ -2129,7 +2123,7 @@ html.touch .links a.tap {
     display: block;
     height: 105px;
     width: 70px; }
- 
+
     article,
     aside,
     details,
@@ -2142,57 +2136,56 @@ html.touch .links a.tap {
     section,
     summary {
       display: block; }
-    
+
     audio,
     canvas,
     video {
       display: inline-block;
-      *display: inline;
-      *zoom: 1; }
-    
+     }
+
     audio:not([controls]) {
       display: none;
       height: 0; }
-    
+
     [hidden] {
       display: none; }
-    
+
     html {
       font-size: 100%;
       -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%; }
-    
+
     html,
     button,
     input,
     select,
     textarea {
       font-family: sans-serif; }
-    
+
     body {
       margin: 0; }
-    
+
     a:focus {
       outline: thin dotted; }
-    
+
     a:hover,
     a:active {
       outline: 0; }
-    
+
     abbr[title] {
       border-bottom: 1px dotted; }
-    
+
     b,
     strong {
       font-weight: bold; }
-    
+
     dfn {
       font-style: italic; }
-    
+
     mark {
       background: #ff0;
       color: #000; }
-    
+
     pre,
     code,
     kbd,
@@ -2200,74 +2193,74 @@ html.touch .links a.tap {
       font-family: monospace, serif;
       _font-family: "courier new", monospace;
       font-size: 1em; }
-    
+
     q {
       quotes: none; }
-    
+
     q:before,
     q:after {
       content: "";
       content: none; }
-    
+
     small {
       font-size: 75%; }
-    
+
     sub,
     sup {
       font-size: 75%;
       line-height: 0;
       position: relative;
       vertical-align: baseline; }
-    
+
     sup {
       top: -0.5em; }
-    
+
     sub {
       bottom: -0.25em; }
-    
+
     dl,
     menu,
     ol,
     ul {
       margin: 1em 0; }
-    
+
     dd {
       margin: 0 0 0 40px; }
-    
+
     menu,
     ol,
     ul {
       padding: 0 0 0 40px; }
-    
+
     nav ul,
     nav ol {
       list-style: none;
       list-style-image: none; }
-    
+
     img {
       border: 0;
       -ms-interpolation-mode: bicubic; }
-    
+
     svg:not(:root) {
       overflow: hidden; }
-    
+
     figure {
       margin: 0; }
-    
+
     form {
       margin: 0; }
-    
+
     fieldset {
       border: 1px solid #c0c0c0;
       margin: 0 0;
       padding: 0.35em 0.625em 0.75em; }
-    
+
     legend {
       border: 0;
       padding: 0;
       white-space: normal;
-      *margin-left: -7px; }
-    
+       }
+
     button,
     input,
     select,
@@ -2275,73 +2268,64 @@ html.touch .links a.tap {
       font-size: 100%;
       margin: 0;
       vertical-align: baseline;
-      *vertical-align: middle; }
-    
+     ; }
+
     button,
     input {
       line-height: normal; }
-    
+
     button,
     input[type="button"],
     input[type="reset"],
     input[type="submit"] {
       cursor: pointer;
-      -webkit-appearance: button;
-      *overflow: visible; }
-    
+
+       }
+
     button[disabled],
     input[disabled] {
       cursor: default; }
-    
+
     input[type="checkbox"],
     input[type="radio"] {
       box-sizing: border-box;
       padding: 0;
-      *height: 13px;
-      *width: 13px; }
-    
+      }
+
     input[type="search"] {
-      -webkit-appearance: textfield;
+
       -moz-box-sizing: content-box;
       -webkit-box-sizing: content-box;
       box-sizing: content-box; }
-    
+
     input[type="search"]::-webkit-search-decoration,
     input[type="search"]::-webkit-search-cancel-button {
       -webkit-appearance: none; }
-    
+
     button::-moz-focus-inner,
     input::-moz-focus-inner {
       border: 0;
       padding: 0; }
-    
+
     textarea {
       overflow: auto;
       vertical-align: top; }
-    
+
     table {
       border-collapse: collapse;
       border-spacing: 0; }
-    
-    @font-face {
-      font-family: "icons";
-     
-      font-weight: normal;
-      font-style: normal; }
-    ::selection {
-      text-shadow: none;
-      background: #000000;
-      color: #FFFFFF; }
-    
+
+
+
     ::-moz-selection {
       text-shadow: none;
       background: #000000;
       color: #FFFFFF; }
-    
+
     html {
       font-family: "Roboto Slab", sans-serif;
       font-size: 12px; }
-    
+
     body {
       -webkit-font-smoothing: antialiased;
       text-rendering: optimizeLegibility;
@@ -2349,39 +2333,39 @@ html.touch .links a.tap {
       background-color: #000000;
       text-align: center;
       color: #FFFFFF; }
-    
+
     h1, h2, h3 {
       line-height: 1.4em;
       font-weight: 300;
       margin: 0; }
-    
+
     h1 {
       font-size: 2.83333em; }
-    
+
     h2 {
       font-size: 2.33333em; }
-    
+
     p {
       margin: 0 0 1.4em; }
-    
+
     em {
       font-style: normal;
       color: #D92400; }
-    
+
     img {
       display: block;
       width: 100%; }
-    
+
     ul {
       list-style: none;
       display: block;
       padding: 0;
       margin: 0; }
-    
+
     a {
       text-decoration: none;
       color: #D92400; }
-    
+
     button {
       -webkit-font-smoothing: antialiased;
       -webkit-border-radius: 24px;
@@ -2404,7 +2388,7 @@ html.touch .links a.tap {
       border: none; }
       button.hide {
         opacity: 0; }
-    
+
     footer {
       position: absolute;
       text-align: right;
@@ -2425,7 +2409,7 @@ html.touch .links a.tap {
         margin-left: 12px;
         bottom: 20px;
         right: 10px; }
-    
+
     .accelerate {
       -webkit-transform: translate3d(0,0,0);
       -moz-transform: translate3d(0,0,0);
@@ -2436,12 +2420,12 @@ html.touch .links a.tap {
       -webkit-backface-visibility: hidden;
       -moz-backface-visibility: hidden;
       backface-visibility: hidden; }
-    
+
     .center {
       max-width: 400px;
       margin: 0 auto;
       width: 88%; }
-    
+
     .wrapper {
       min-height: 460px;
       position: absolute;
@@ -2451,11 +2435,11 @@ html.touch .links a.tap {
       width: 100%;
       left: 0;
       top: 0; }
-    
+
     .cell {
       vertical-align: middle;
       display: table-cell; }
-    
+
     .panel {
       -webkit-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
       -moz-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
@@ -2470,7 +2454,7 @@ html.touch .links a.tap {
       -moz-transform: translate3d(0,0,0);
       transform: translate3d(0,0,0);
       position: relative; }
-    
+
     .about {
       -webkit-font-smoothing: auto;
       -webkit-perspective: 1000px;
@@ -2480,7 +2464,7 @@ html.touch .links a.tap {
       .about:after {
         background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.8) 0%, transparent 100%);
         background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.8) 0%, transparent 100%);
-        background-image: linear-gradient(top, rgba(0, 0, 0, 0.8) 0%, transparent 100%);
+
         position: absolute;
         display: block;
         width: 100%;
@@ -2665,7 +2649,7 @@ html.touch .links a.tap {
             .about .panel .links a.github:before {
               margin-right: 0.4em;
               content: "g"; }
-    
+
     .toggle {
       -webkit-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
       -moz-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
@@ -2685,7 +2669,7 @@ html.touch .links a.tap {
         .toggle.i .cross .y {
           margin-top: -4px;
           height: 16px; }
-    
+
     .cross {
       -webkit-transform: rotateZ(45deg);
       -moz-transform: rotateZ(45deg);
@@ -2714,7 +2698,7 @@ html.touch .links a.tap {
       .cross .y {
         margin-top: -12px;
         height: 24px; }
-    
+
     .prompt.hide {
       visibility: hidden; }
       .prompt.hide .panel {
@@ -2775,7 +2759,7 @@ html.touch .links a.tap {
       -webkit-animation: tilt 4s infinite alternate cubic-bezier(0.455, 0.03, 0.515, 0.955);
       -moz-animation: tilt 4s infinite alternate cubic-bezier(0.455, 0.03, 0.515, 0.955);
       animation: tilt 4s infinite alternate cubic-bezier(0.455, 0.03, 0.515, 0.955); }
-    
+
     .scene,
     .layer {
       display: block;
@@ -2783,12 +2767,12 @@ html.touch .links a.tap {
       width: 100%;
       padding: 0;
       margin: 0; }
-    
+
     .scene {
       min-height: 460px;
       position: relative;
       overflow: hidden; }
-    
+
     .layer {
       position: absolute; }
       .layer div {
@@ -2801,7 +2785,7 @@ html.touch .links a.tap {
         -webkit-backface-visibility: hidden;
         -moz-backface-visibility: hidden;
         backface-visibility: hidden; }
-    
+
     .title {
       font-size: 3em;
       text-shadow: 0 8px 6px rgba(0, 0, 0, 0.6);
@@ -2809,7 +2793,7 @@ html.touch .links a.tap {
       position: absolute;
       width: 100%;
       top: 42%; }
-    
+
     .background {
       background: url(../assets/images/background.jpg) no-repeat 50% 100%;
       bottom: 96px;
@@ -2818,7 +2802,7 @@ html.touch .links a.tap {
       width: 110%;
       left: -5%;
       top: -5%; }
-    
+
     .lighthouse {
       -webkit-transform-origin: 50% 90%;
       -moz-transform-origin: 50% 90%;
@@ -2835,7 +2819,7 @@ html.touch .links a.tap {
       bottom: 64px;
       position: absolute;
       right: 20%; }
-    
+
     .wave {
       background: transparent repeat-x;
       position: absolute;
@@ -2854,7 +2838,7 @@ html.touch .links a.tap {
         background-image: url(../assets/images/wave-plain.png); }
       .wave.paint {
         background-image: url(../assets/images/wave-paint.png); }
-    
+
     .light {
       margin: -120px -120px;
       background-size: 240px 240px;
@@ -2910,13 +2894,13 @@ html.touch .links a.tap {
         -webkit-animation: phase 10s 0.1s infinite linear;
         -moz-animation: phase 10s 0.1s infinite linear;
         animation: phase 10s 0.1s infinite linear; }
-    
+
     .rope {
       width: 120%;
       position: relative;
       left: -10%;
       position: relative; }
-    
+
     .hanger {
       -webkit-transform-origin: 0% 0%;
       -moz-transform-origin: 0% 0%;
@@ -2958,7 +2942,7 @@ html.touch .links a.tap {
         left: 80%; }
       .hanger.position-9 {
         left: 90%; }
-    
+
     .board {
       -webkit-transform-origin: 50% 0%;
       -moz-transform-origin: 50% 0%;
@@ -2981,32 +2965,32 @@ html.touch .links a.tap {
         background-image: url(../assets/images/board-cloud-3.png); }
       .board.cloud-4 {
         background-image: url(../assets/images/board-cloud-4.png); }
-    
+
     .swing-1 {
       -webkit-animation: swing 4s infinite alternate cubic-bezier(0.455, 0.03, 0.515, 0.955);
       -moz-animation: swing 4s infinite alternate cubic-bezier(0.455, 0.03, 0.515, 0.955);
       animation: swing 4s infinite alternate cubic-bezier(0.455, 0.03, 0.515, 0.955); }
-    
+
     .swing-2 {
       -webkit-animation: swing 3.5s infinite alternate cubic-bezier(0.455, 0.03, 0.515, 0.955);
       -moz-animation: swing 3.5s infinite alternate cubic-bezier(0.455, 0.03, 0.515, 0.955);
       animation: swing 3.5s infinite alternate cubic-bezier(0.455, 0.03, 0.515, 0.955); }
-    
+
     .swing-3 {
       -webkit-animation: swing 3s infinite alternate cubic-bezier(0.455, 0.03, 0.515, 0.955);
       -moz-animation: swing 3s infinite alternate cubic-bezier(0.455, 0.03, 0.515, 0.955);
       animation: swing 3s infinite alternate cubic-bezier(0.455, 0.03, 0.515, 0.955); }
-    
+
     .swing-4 {
       -webkit-animation: swing 2.5s infinite alternate cubic-bezier(0.455, 0.03, 0.515, 0.955);
       -moz-animation: swing 2.5s infinite alternate cubic-bezier(0.455, 0.03, 0.515, 0.955);
       animation: swing 2.5s infinite alternate cubic-bezier(0.455, 0.03, 0.515, 0.955); }
-    
+
     .swing-5 {
       -webkit-animation: swing 2s infinite alternate cubic-bezier(0.455, 0.03, 0.515, 0.955);
       -moz-animation: swing 2s infinite alternate cubic-bezier(0.455, 0.03, 0.515, 0.955);
       animation: swing 2s infinite alternate cubic-bezier(0.455, 0.03, 0.515, 0.955); }
-    
+
     .wave.depth-10 {
       -webkit-animation: wave 8s 0.1s infinite linear;
       -moz-animation: wave 8s 0.1s infinite linear;
@@ -3018,7 +3002,7 @@ html.touch .links a.tap {
       height: 16px; }
       .wave.depth-10:after {
         height: 144px; }
-    
+
     .rope.depth-10 {
       -webkit-transform: scale(1);
       -moz-transform: scale(1);
@@ -3028,7 +3012,7 @@ html.touch .links a.tap {
         -webkit-transform: scale(0.25);
         -moz-transform: scale(0.25);
         transform: scale(0.25); }
-    
+
     .wave.depth-20 {
       -webkit-animation: wave 7.55556s 0.1s infinite linear;
       -moz-animation: wave 7.55556s 0.1s infinite linear;
@@ -3040,7 +3024,7 @@ html.touch .links a.tap {
       height: 32px; }
       .wave.depth-20:after {
         height: 128px; }
-    
+
     .rope.depth-20 {
       -webkit-transform: scale(1.02778);
       -moz-transform: scale(1.02778);
@@ -3050,7 +3034,7 @@ html.touch .links a.tap {
         -webkit-transform: scale(0.27778);
         -moz-transform: scale(0.27778);
         transform: scale(0.27778); }
-    
+
     .wave.depth-30 {
       -webkit-animation: wave 7.11111s 0.1s infinite linear;
       -moz-animation: wave 7.11111s 0.1s infinite linear;
@@ -3062,7 +3046,7 @@ html.touch .links a.tap {
       height: 48px; }
       .wave.depth-30:after {
         height: 112px; }
-    
+
     .rope.depth-30 {
       -webkit-transform: scale(1.05556);
       -moz-transform: scale(1.05556);
@@ -3072,7 +3056,7 @@ html.touch .links a.tap {
         -webkit-transform: scale(0.30556);
         -moz-transform: scale(0.30556);
         transform: scale(0.30556); }
-    
+
     .wave.depth-40 {
       -webkit-animation: wave 6.66667s 0.1s infinite linear;
       -moz-animation: wave 6.66667s 0.1s infinite linear;
@@ -3084,7 +3068,7 @@ html.touch .links a.tap {
       height: 64px; }
       .wave.depth-40:after {
         height: 96px; }
-    
+
     .rope.depth-40 {
       -webkit-transform: scale(1.08333);
       -moz-transform: scale(1.08333);
@@ -3094,7 +3078,7 @@ html.touch .links a.tap {
         -webkit-transform: scale(0.33333);
         -moz-transform: scale(0.33333);
         transform: scale(0.33333); }
-    
+
     .wave.depth-50 {
       -webkit-animation: wave 6.22222s 0.1s infinite linear;
       -moz-animation: wave 6.22222s 0.1s infinite linear;
@@ -3106,7 +3090,7 @@ html.touch .links a.tap {
       height: 80px; }
       .wave.depth-50:after {
         height: 80px; }
-    
+
     .rope.depth-50 {
       -webkit-transform: scale(1.11111);
       -moz-transform: scale(1.11111);
@@ -3116,7 +3100,7 @@ html.touch .links a.tap {
         -webkit-transform: scale(0.36111);
         -moz-transform: scale(0.36111);
         transform: scale(0.36111); }
-    
+
     .wave.depth-60 {
       -webkit-animation: wave 5.77778s 0.1s infinite linear;
       -moz-animation: wave 5.77778s 0.1s infinite linear;
@@ -3128,7 +3112,7 @@ html.touch .links a.tap {
       height: 96px; }
       .wave.depth-60:after {
         height: 64px; }
-    
+
     .rope.depth-60 {
       -webkit-transform: scale(1.13889);
       -moz-transform: scale(1.13889);
@@ -3138,7 +3122,7 @@ html.touch .links a.tap {
         -webkit-transform: scale(0.38889);
         -moz-transform: scale(0.38889);
         transform: scale(0.38889); }
-    
+
     .wave.depth-70 {
       -webkit-animation: wave 5.33333s 0.1s infinite linear;
       -moz-animation: wave 5.33333s 0.1s infinite linear;
@@ -3150,7 +3134,7 @@ html.touch .links a.tap {
       height: 112px; }
       .wave.depth-70:after {
         height: 48px; }
-    
+
     .rope.depth-70 {
       -webkit-transform: scale(1.16667);
       -moz-transform: scale(1.16667);
@@ -3160,7 +3144,7 @@ html.touch .links a.tap {
         -webkit-transform: scale(0.41667);
         -moz-transform: scale(0.41667);
         transform: scale(0.41667); }
-    
+
     .wave.depth-80 {
       -webkit-animation: wave 4.88889s 0.1s infinite linear;
       -moz-animation: wave 4.88889s 0.1s infinite linear;
@@ -3172,7 +3156,7 @@ html.touch .links a.tap {
       height: 128px; }
       .wave.depth-80:after {
         height: 32px; }
-    
+
     .rope.depth-80 {
       -webkit-transform: scale(1.19444);
       -moz-transform: scale(1.19444);
@@ -3182,7 +3166,7 @@ html.touch .links a.tap {
         -webkit-transform: scale(0.44444);
         -moz-transform: scale(0.44444);
         transform: scale(0.44444); }
-    
+
     .wave.depth-90 {
       -webkit-animation: wave 4.44444s 0.1s infinite linear;
       -moz-animation: wave 4.44444s 0.1s infinite linear;
@@ -3194,7 +3178,7 @@ html.touch .links a.tap {
       height: 144px; }
       .wave.depth-90:after {
         height: 16px; }
-    
+
     .rope.depth-90 {
       -webkit-transform: scale(1.22222);
       -moz-transform: scale(1.22222);
@@ -3204,7 +3188,7 @@ html.touch .links a.tap {
         -webkit-transform: scale(0.47222);
         -moz-transform: scale(0.47222);
         transform: scale(0.47222); }
-    
+
     .wave.depth-100 {
       -webkit-animation: wave 4s 0.1s infinite linear;
       -moz-animation: wave 4s 0.1s infinite linear;
@@ -3216,7 +3200,7 @@ html.touch .links a.tap {
       height: 160px; }
       .wave.depth-100:after {
         height: 0px; }
-    
+
     .rope.depth-100 {
       -webkit-transform: scale(1.25);
       -moz-transform: scale(1.25);
@@ -3226,89 +3210,89 @@ html.touch .links a.tap {
         -webkit-transform: scale(0.5);
         -moz-transform: scale(0.5);
         transform: scale(0.5); }
-    
+
     @media all and (min-width: 400px) {
       html {
         font-size: 12px; }
-    
+
       .wrapper {
         min-height: 360px; }
-    
+
       .about .panel header:before {
         background-size: 66px 90px; }
-    
+
       .toggle {
         bottom: 12%; }
-    
+
       .prompt .panel img {
         width: 80px; }
-    
+
       .scene {
         min-height: 360px; }
-    
+
       .rope.depth-10 {
         top: 10%; }
         .rope.depth-10 .hanger {
           -webkit-transform: scale(0.3);
           -moz-transform: scale(0.3);
           transform: scale(0.3); }
-    
+
       .rope.depth-20 {
         top: 6.11111%; }
         .rope.depth-20 .hanger {
           -webkit-transform: scale(0.33333);
           -moz-transform: scale(0.33333);
           transform: scale(0.33333); }
-    
+
       .rope.depth-30 {
         top: 2.22222%; }
         .rope.depth-30 .hanger {
           -webkit-transform: scale(0.36667);
           -moz-transform: scale(0.36667);
           transform: scale(0.36667); }
-    
+
       .rope.depth-40 {
         top: -1.66667%; }
         .rope.depth-40 .hanger {
           -webkit-transform: scale(0.4);
           -moz-transform: scale(0.4);
           transform: scale(0.4); }
-    
+
       .rope.depth-50 {
         top: -5.55556%; }
         .rope.depth-50 .hanger {
           -webkit-transform: scale(0.43333);
           -moz-transform: scale(0.43333);
           transform: scale(0.43333); }
-    
+
       .rope.depth-60 {
         top: -9.44444%; }
         .rope.depth-60 .hanger {
           -webkit-transform: scale(0.46667);
           -moz-transform: scale(0.46667);
           transform: scale(0.46667); }
-    
+
       .rope.depth-70 {
         top: -13.33333%; }
         .rope.depth-70 .hanger {
           -webkit-transform: scale(0.5);
           -moz-transform: scale(0.5);
           transform: scale(0.5); }
-    
+
       .rope.depth-80 {
         top: -17.22222%; }
         .rope.depth-80 .hanger {
           -webkit-transform: scale(0.53333);
           -moz-transform: scale(0.53333);
           transform: scale(0.53333); }
-    
+
       .rope.depth-90 {
         top: -21.11111%; }
         .rope.depth-90 .hanger {
           -webkit-transform: scale(0.56667);
           -moz-transform: scale(0.56667);
           transform: scale(0.56667); }
-    
+
       .rope.depth-100 {
         top: -25%; }
         .rope.depth-100 .hanger {
@@ -3318,7 +3302,7 @@ html.touch .links a.tap {
     @media all and (min-width: 600px) {
       html {
         font-size: 15px; }
-    
+
       button {
         -webkit-border-radius: 28px;
         -moz-border-radius: 28px;
@@ -3328,7 +3312,7 @@ html.touch .links a.tap {
         background-clip: padding-box;
         height: 56px;
         width: 56px; }
-    
+
       footer {
         padding: 0 10px 20px; }
         footer .fb-like,
@@ -3336,17 +3320,17 @@ html.touch .links a.tap {
           position: static;
           bottom: auto;
           right: auto; }
-    
+
       .center {
         max-width: 440px; }
-    
+
       .about .panel:after {
         background-size: 252px 252px;
         height: 180px;
         width: 140px; }
       .about .panel header:before {
         background-size: 82.5px 112.5px; }
-    
+
       .prompt {
         overflow: visible;
         display: block;
@@ -3381,24 +3365,24 @@ html.touch .links a.tap {
             font-size: 0.93333em;
             margin: 0 10% 1.3em;
             line-height: 1.3em; }
-    
+
       .toggle {
         margin: -28px;
         bottom: 15%; }
-    
+
       .title {
         font-size: 3.46667em; }
-    
+
       .background {
         bottom: 96px; }
-    
+
       .lighthouse {
         margin: 0px -96px;
         background-size: 192px 336px;
         height: 336px;
         width: 192px;
         bottom: 128px; }
-    
+
       .light {
         margin: -140px -140px;
         background-size: 280px 280px;
@@ -3416,7 +3400,7 @@ html.touch .links a.tap {
           bottom: 192px; }
         .light.f {
           bottom: 128px; }
-    
+
       .wave.depth-10 {
         bottom: 210px;
         margin: 0px 0px;
@@ -3425,14 +3409,14 @@ html.touch .links a.tap {
         height: 24px; }
         .wave.depth-10:after {
           height: 216px; }
-    
+
       .rope.depth-10 {
         top: 20%; }
         .rope.depth-10 .hanger {
           -webkit-transform: scale(0.5);
           -moz-transform: scale(0.5);
           transform: scale(0.5); }
-    
+
       .wave.depth-20 {
         bottom: 180px;
         margin: 0px 0px;
@@ -3441,14 +3425,14 @@ html.touch .links a.tap {
         height: 48px; }
         .wave.depth-20:after {
           height: 192px; }
-    
+
       .rope.depth-20 {
         top: 16.66667%; }
         .rope.depth-20 .hanger {
           -webkit-transform: scale(0.55556);
           -moz-transform: scale(0.55556);
           transform: scale(0.55556); }
-    
+
       .wave.depth-30 {
         bottom: 150px;
         margin: 0px 0px;
@@ -3457,14 +3441,14 @@ html.touch .links a.tap {
         height: 72px; }
         .wave.depth-30:after {
           height: 168px; }
-    
+
       .rope.depth-30 {
         top: 13.33333%; }
         .rope.depth-30 .hanger {
           -webkit-transform: scale(0.61111);
           -moz-transform: scale(0.61111);
           transform: scale(0.61111); }
-    
+
       .wave.depth-40 {
         bottom: 120px;
         margin: 0px 0px;
@@ -3473,14 +3457,14 @@ html.touch .links a.tap {
         height: 96px; }
         .wave.depth-40:after {
           height: 144px; }
-    
+
       .rope.depth-40 {
         top: 10%; }
         .rope.depth-40 .hanger {
           -webkit-transform: scale(0.66667);
           -moz-transform: scale(0.66667);
           transform: scale(0.66667); }
-    
+
       .wave.depth-50 {
         bottom: 90px;
         margin: 0px 0px;
@@ -3489,14 +3473,14 @@ html.touch .links a.tap {
         height: 120px; }
         .wave.depth-50:after {
           height: 120px; }
-    
+
       .rope.depth-50 {
         top: 6.66667%; }
         .rope.depth-50 .hanger {
           -webkit-transform: scale(0.72222);
           -moz-transform: scale(0.72222);
           transform: scale(0.72222); }
-    
+
       .wave.depth-60 {
         bottom: 60px;
         margin: 0px 0px;
@@ -3505,14 +3489,14 @@ html.touch .links a.tap {
         height: 144px; }
         .wave.depth-60:after {
           height: 96px; }
-    
+
       .rope.depth-60 {
         top: 3.33333%; }
         .rope.depth-60 .hanger {
           -webkit-transform: scale(0.77778);
           -moz-transform: scale(0.77778);
           transform: scale(0.77778); }
-    
+
       .wave.depth-70 {
         bottom: 30px;
         margin: 0px 0px;
@@ -3521,14 +3505,14 @@ html.touch .links a.tap {
         height: 168px; }
         .wave.depth-70:after {
           height: 72px; }
-    
+
       .rope.depth-70 {
         top: 0%; }
         .rope.depth-70 .hanger {
           -webkit-transform: scale(0.83333);
           -moz-transform: scale(0.83333);
           transform: scale(0.83333); }
-    
+
       .wave.depth-80 {
         bottom: 0px;
         margin: 0px 0px;
@@ -3537,14 +3521,14 @@ html.touch .links a.tap {
         height: 192px; }
         .wave.depth-80:after {
           height: 48px; }
-    
+
       .rope.depth-80 {
         top: -3.33333%; }
         .rope.depth-80 .hanger {
           -webkit-transform: scale(0.88889);
           -moz-transform: scale(0.88889);
           transform: scale(0.88889); }
-    
+
       .wave.depth-90 {
         bottom: -30px;
         margin: 0px 0px;
@@ -3553,14 +3537,14 @@ html.touch .links a.tap {
         height: 216px; }
         .wave.depth-90:after {
           height: 24px; }
-    
+
       .rope.depth-90 {
         top: -6.66667%; }
         .rope.depth-90 .hanger {
           -webkit-transform: scale(0.94444);
           -moz-transform: scale(0.94444);
           transform: scale(0.94444); }
-    
+
       .wave.depth-100 {
         bottom: -60px;
         margin: 0px 0px;
@@ -3569,11 +3553,10 @@ html.touch .links a.tap {
         height: 240px; }
         .wave.depth-100:after {
           height: 0px; }
-    
+
       .rope.depth-100 {
         top: -10%; }
         .rope.depth-100 .hanger {
           -webkit-transform: scale(1);
           -moz-transform: scale(1);
           transform: scale(1); } }
- 
